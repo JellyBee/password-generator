@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #111827;
+    color: #F3F4F6;
+}
+
+.container {
+    padding: 50px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.highlighted {
+    color: #4ADF86;
+}
+
+button {
+    background-color: #4ADF86;
+    color: #111827;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 32px;
+}
+
+.passwords-container {
+    border-top: 1px solid #2F3E53;
+    padding: 32px 0;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    justify-content: space-between
+}
+
+.password-inner {
+    background-color: #273549;
+    color: #4ADF86;
+    width: 100%;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 4px;
+    height: 20px;
+}
